@@ -10,13 +10,35 @@ body {
   font-family: 'Epilogue', sans-serif;
 }
 
+.App {
+  display: flex;
+  justify-content: center;
+}
+
 :root {
   --first-color: #254eda;
   --black-color: #393939;
-  --gray-color: #828282;
-  --gray-light-color: #f8f6ed;
+  --grey-color: #828282;
+  --light-grey-color: #f8f6ed;
   --orange-color: #fe713a;
   --red-color: #d91732;
+}
+
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+  background-color: var(--first-color);
+  transition: all 0.3s ease-out;
+
+  &:hover {
+    background-color: darken($color: #254eda, $amount: 8);
+  }
 }
 
 /* ---------------------------------

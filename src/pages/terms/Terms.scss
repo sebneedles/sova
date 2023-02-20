@@ -1,0 +1,29 @@
+.terms {
+  max-width: 340px;
+  width: 100%;
+
+  hr {
+    margin: 2rem 0;
+  }
+
+  h1 {
+    color: var(--first-color);
+    margin: 0 0 1rem 0;
+  }
+  h2 {
+    color: var(--black-color);
+    margin: 0 0 0.7rem 0;
+  }
+  p {
+    font-size: 14px;
+    color: var(--grey-color);
+  }
+
+  .copy {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    font-size: 12px;
+    color: var(--grey-color);
+  }
+}
