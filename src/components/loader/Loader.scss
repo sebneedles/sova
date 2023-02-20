@@ -1,0 +1,47 @@
+.loader {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .container {
+    span {
+      color: var(--first-color);
+      font-size: 68px;
+      font-weight: 700;
+      font-family: 'Prompt', sans-serif;
+
+      &.orange {
+        color: var(--orange-color);
+      }
+
+      &:nth-child(1) {
+        animation: appear 1s ease-in-out infinite;
+      }
+      &:nth-child(2) {
+        animation: appear 1s ease-in-out 0.2s infinite;
+      }
+      &:nth-child(3) {
+        animation: appear 1s ease-in-out 0.4s infinite;
+      }
+      &:nth-child(4) {
+        animation: appear 1s ease-in-out 0.6s infinite;
+      }
+      &:nth-child(5) {
+        animation: appear 1s ease-in-out 0.8s infinite;
+      }
+    }
+
+    @keyframes appear {
+      10% {
+        opacity: 0.01;
+        // transition: all 0.3s ease-out;
+      }
+
+      100% {
+        opacity: 1;
+        transition: all 0.5s ease-in;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@700&display=swap');
+
+body {
+  box-sizing: border-box;
+  font-family: 'Epilogue', sans-serif;
+}
+
+:root {
+  --first-color: #254eda;
+  --black-color: #393939;
+  --gray-color: #828282;
+  --gray-light-color: #f8f6ed;
+  --orange-color: #fe713a;
+  --red-color: #d91732;
+}
+
+/* ---------------------------------
+RESPONSIVE DESIGN
+--------------------------------- */
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 375px) {
+}
