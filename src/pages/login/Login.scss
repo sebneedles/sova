@@ -86,6 +86,14 @@
         }
       }
     }
+
+    .danger {
+      color: var(--red-color);
+      text-align: center;
+      font-size: 12px;
+      font-weight: 400;
+      padding: 20px 0;
+    }
   }
 
   .account-text {

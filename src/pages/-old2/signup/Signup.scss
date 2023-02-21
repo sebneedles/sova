@@ -1,23 +1,11 @@
-.forgotPassword {
+.signup {
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
 
-  .nav {
-    display: flex;
-    align-items: center;
-    position: relative;
-
-    .MinusLogo {
-      padding: 52px 0 40px 0;
-    }
-
-    img {
-      display: flex;
-      position: absolute;
-      right: 190px;
-    }
+  .MinusLogo {
+    padding: 52px 0 40px 0;
   }
 
   h1 {
@@ -97,14 +85,6 @@
           text-decoration: underline;
         }
       }
-    }
-
-    .success {
-      color: var(--green-color);
-      font-size: 12px;
-      text-align: center;
-      font-weight: 400;
-      padding: 20px 0;
     }
   }
 

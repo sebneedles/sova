@@ -6,6 +6,7 @@ import Login from './pages/login/Login';
 import Terms from './pages/terms/Terms';
 import Error from './pages/error/Error';
 import ForgotPassword from './pages/forgotPassword/ForgotPassword';
+import DetailUser from './pages/detailUser/DetailUser';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/signup" element={<Signup />} />
           <Route path="/terms" element={<Terms />} />
           <Route path="/forgot-password" element={<ForgotPassword />} />
+          <Route path="/auth-detail" element={<DetailUser />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
